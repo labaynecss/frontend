@@ -4,7 +4,7 @@ const reviewService = createApi({
   reducerPath: 'reviews',
   tagTypes: ['reviews'],
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:5000/api/',
+    baseUrl: 'https://lnc-manufacturer.onrender.com/api/',
     prepareHeaders: (headers, { getState }) => {
       const reducers = getState();
       const token = reducers?.authReducer?.userToken;
