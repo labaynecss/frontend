@@ -81,13 +81,13 @@ const UserOrders = () => {
                                   {item.status ? (
                                     item.received ? (
                                       <span className="capitalize font-medium text-emerald-600">
-                                        received
+                                        Order Received.
                                       </span>
                                     ) : (
                                       <button
                                         className="btn btn-indigo"
                                         onClick={() => orderReceived(item._id)}>
-                                        Order Receive
+                                        Receive?
                                       </button>
                                     )
                                   ) : (
