@@ -71,11 +71,13 @@ const AboutUs = () => {
                         </p>
 
                         <p className="text-gray-700 text-lg">
-                          Contact: 555.555.5555
+                          Contact: 0949 958 2443
                         </p>
-                        <p className="text-gray-700 text-lg">
-                          Email: john.doe@company.com
-                        </p>
+                        <Link
+                          to="https://www.facebook.com/hernanie.clacio.1"
+                          className="text-gray-700 text-lg">
+                          Email:hernanie.clacio.@gmail.com
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -102,11 +104,13 @@ const AboutUs = () => {
                         </p>
 
                         <p className="text-gray-700 text-lg">
-                          Contact: 555.555.5555
+                          Contact: 0949 958 2443
                         </p>
-                        <p className="text-gray-700 text-lg">
-                          Email: john.doe@company.com
-                        </p>
+                        <Link
+                          to="https://www.facebook.com/hernanie.clacio.1"
+                          className="text-gray-700 text-lg">
+                          Email: lilia.clacio.90@gmail.com
+                        </Link>
                       </div>
                     </div>
                   </div>
