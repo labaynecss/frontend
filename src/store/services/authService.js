@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const authService = createApi({
   reducerPath: 'auth',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://lnc-manufacturer.onrender.com/api/',
+    baseUrl: 'https://jittery-twill-ant.cyclic.app//api/',
   }),
   endpoints: (builder) => {
     return {

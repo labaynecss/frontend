@@ -4,7 +4,7 @@ const reviewService = createApi({
   reducerPath: 'reviews',
   tagTypes: ['reviews'],
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://lnc-manufacturer.onrender.com/api/',
+    baseUrl: 'https://jittery-twill-ant.cyclic.app/api/',
     prepareHeaders: (headers, { getState }) => {
       const reducers = getState();
       const token = reducers?.authReducer?.userToken;
