@@ -70,7 +70,7 @@ const UserOrderDetails = () => {
                     />
                     <DetailsList
                       label="order received"
-                      data={data?.details?.received ? 'Yes' : 'No'}
+                      data={data?.details?.received  'Yes' : 'No'}
                     />
                     <DetailsList
                       label="order date"

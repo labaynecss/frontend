@@ -43,7 +43,7 @@ const UserOrders = () => {
                             <th className="th">name</th>
                             <th className="th">total</th>
                             <th className="th">details</th>
-                            <th className="th">received</th>
+                            <th className="th">Order Status</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -87,7 +87,7 @@ const UserOrders = () => {
                                       <button
                                         className="btn btn-indigo"
                                         onClick={() => orderReceived(item._id)}>
-                                        received?
+                                        Order Receive
                                       </button>
                                     )
                                   ) : (
